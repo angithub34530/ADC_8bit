@@ -1,0 +1,9 @@
+INCLUDE $SYNOPSYS_CUSTOM_INSTALL/samples/lib.defs
+DEFINE reference90RF ./PDK/reference90RF
+ASSIGN reference90RF libMode shared
+DEFINE logic_lib ./logic_lib
+ASSIGN logic_lib writePath ./logic_lib
+ASSIGN logic_lib libMode shared
+DEFINE encoder ./encoder
+ASSIGN encoder writePath ./encoder
+ASSIGN encoder libMode shared
